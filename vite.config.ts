@@ -1,0 +1,1 @@
+import { defineConfig } from 'vite';\nimport vue from '@vitejs/plugin-vue';\n\n// https://vitejs.dev/config/\nexport default defineConfig({\n  plugins: [vue()],\n  build: {\n    outDir: 'dist',\n    // Additional configurations if needed\n    // assetsDir: 'assets',\n  },\n});
